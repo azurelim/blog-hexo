@@ -97,5 +97,20 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: 'git'
+#   repo: /Users/david/Projects/nusanet/training/2020-03-ade/deploy.git
+#   branch: master
+#   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+# deploy:
+#   type: 'git'
+#   repo: https://github.com/azurelim/test-blog-hexo.git
+#   branch: master
+#   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
+
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/azurelim/azurelim.github.io.git
+  branch: master
+  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
